@@ -1,0 +1,39 @@
+libfunction-parameters-perl (2.001003-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:45:04 +0800
+
+libfunction-parameters-perl (2.001003-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ intrigeri ]
+  * Add myself to uploaders.
+  * Declare compliance with Policy 4.1.5.
+  * Add "Rules-Requires-Root: no" control field.
+  * Bump debhelper compatibility level to 11.
+
+ -- intrigeri <intrigeri@debian.org>  Sun, 08 Jul 2018 08:30:00 +0000
+
+libfunction-parameters-perl (2.001003-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * Drop debian/tests/pkg-perl/smoke-tests, handled by pkg-perl-
+    autopkgtest now.
+
+  [ Damyan Ivanov ]
+  * New upstream version 2.001003
+  * update years of upstream copyright
+  * declare conformance with Policy 4.1.1 (no changes needed)
+
+ -- Damyan Ivanov <dmn@debian.org>  Sat, 11 Nov 2017 18:39:02 +0000
+
+libfunction-parameters-perl (1.0705-1) unstable; urgency=medium
+
+  * Initial release (closes: #854622).
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 08 Feb 2017 20:26:15 +0100
