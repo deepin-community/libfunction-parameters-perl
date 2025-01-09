@@ -4,45 +4,11 @@ Upstream-Contact: Lukas Mai <l.mai@web.de>
 Upstream-Name: Function-Parameters
 
 Files: *
-Copyright: 2009-2014, 2017, Lukas Mai <l.mai@web.de>
+Copyright: 2009-2014, 2017, 2023, Lukas Mai <l.mai@web.de>
 License: Artistic or GPL-1+
-
-Files: t/foreign/Fun/*
-Copyright: 2012, Jesse Luehrs
-License: MIT-X11
-Comment: The files are from the Fun distribution on the CPAN.
-
-Files: t/foreign/Method-Signatures/*
-Copyright: 2007-2012, Michael G Schwern <schwern@pobox.com>
-License: Artistic or GPL-1+
-Comment: The files are from the Method-Signatures distribution on the CPAN,
- in Debian packaged as src:libmethod-signatures-perl.
-
-Files: t/foreign/Method-Signatures-Simple/*
-Copyright: 2008-2013, Rhesa Rozendaal
-License: Artistic or GPL-1+
-Comment: The files are from the Method-Signatures-Simple distribution on the CPAN,
- in Debian packaged as src:libmethod-signatures-simple-perl.
-
-Files: t/foreign/MooseX-Method-Signatures/*
-Copyright: 2008, Florian Ragwitz <rafl@debian.org>
-License: Artistic or GPL-1+
-Comment: The files are from the MooseX-Method-Signatures distribution on the CPAN,
- in Debian packaged as src:libmoosex-method-signatures-perl.
-
-Files: t/foreign/perl/*
-Copyright: 1987-2014 by Larry Wall and others
-License: Artistic or GPL-1+
-Comment: The files are from Perl core, in Debian packaged as src:perl.
-
-Files: t/foreign/signatures/*
-Copyright: 2008, Florian Ragwitz <rafl@debian.org>
-License: Artistic or GPL-1+
-Comment: The files are from the signatures distribution on the CPAN,
- in Debian packaged as src:libsignatures-perl.
 
 Files: debian/*
-Copyright: 2017, gregor herrmann <gregoa@debian.org>
+Copyright: 2017-2023, gregor herrmann <gregoa@debian.org>
 License: Artistic or GPL-1+
 
 License: Artistic
@@ -60,29 +26,3 @@ License: GPL-1+
  .
  On Debian systems, the complete text of version 1 of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL-1'.
-
-License: MIT-X11
- Permission is hereby granted, free of charge, to any person
- obtaining a copy of this software and associated
- documentation files (the "Software"), to deal in the Software
- without restriction, including without limitation the rights to
- use, copy, modify, merge, publish, distribute, sublicense,
- and/or sell copies of the Software, and to permit persons to
- whom the Software is furnished to do so, subject to the
- following conditions:
- . 
- The above copyright notice and this permission notice shall
- be included in all copies or substantial portions of the
- Software.
- . 
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
- WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
- INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
- MERCHANTABILITY, FITNESS FOR A PARTICULAR
- PURPOSE AND NONINFRINGEMENT. IN NO EVENT
- SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
- LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
- TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- CONNECTION WITH THE SOFTWARE OR THE USE OR
- OTHER DEALINGS IN THE SOFTWARE.

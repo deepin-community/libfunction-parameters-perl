@@ -1,8 +1,49 @@
-libfunction-parameters-perl (2.001003-deepin1) unstable; urgency=medium
+libfunction-parameters-perl (2.002004-1) unstable; urgency=medium
 
-  * Rebuild
+  * Import upstream version 2.002004.
 
- -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:45:04 +0800
+ -- gregor herrmann <gregoa@debian.org>  Fri, 29 Sep 2023 01:12:34 +0200
+
+libfunction-parameters-perl (2.002003-1) unstable; urgency=medium
+
+  * Import upstream version 2.001006.
+  * Import upstream version 2.002003.
+  * debian/copyright: remove information about removed test files.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Jun 2023 18:40:09 +0200
+
+libfunction-parameters-perl (2.001005-1) unstable; urgency=medium
+
+  * Import upstream version 2.001005.
+  * Update years of upstream and packaging copyright.
+  * Drop libdir-self-perl test dependency.
+  * Declare compliance with Debian Policy 4.6.2.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 05 Feb 2023 00:29:52 +0100
+
+libfunction-parameters-perl (2.001003-3) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/copyright: replace tabs with spaces / remove trailing
+    whitespace.
+  * debian/control: update Build-Depends for cross builds.
+  * debian/watch: use uscan version 4.
+  * Update 'DEB_BUILD_MAINT_OPTIONS = hardening=+bindnow' to '=+all'.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Bump debhelper from old 12 to 13.
+
+  [ gregor herrmann ]
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.6.1.
+  * Annotate test-only build dependencies with <!nocheck>.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 31 Jul 2022 17:32:04 +0200
 
 libfunction-parameters-perl (2.001003-2) unstable; urgency=medium
 
